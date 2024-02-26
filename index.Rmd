@@ -2,7 +2,19 @@
 title: "My_Repo_site"
 author: "John Bauer"
 date: "2024-02-22"
-output: html_document
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    theme: yeti
+    highlight: haddock
+    code_folding: hide
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 # My Github Repo
+
+# Me
+![John Bauer, 2nd year PhD student, Andrews Lab](UCard.jpg)
